@@ -4,3 +4,7 @@ Git has a mutable index called stage.
 
 
 In the Ubnutu server, it may think I am right!
+
+
+Also in this time, 
+I modify the test file.
