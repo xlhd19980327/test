@@ -60,9 +60,9 @@ Usage of function:
 metanr_packages()
 ```
 
-~~Option 2 ~~
+~~Option 2~~
 
-~~Use the pacman R package (for those with >R 3.5.1). ~~
+~~Use the pacman R package (for those with >R 3.5.1).~~
 
 ~~R~~
 ~~install.packages("pacman")~~
