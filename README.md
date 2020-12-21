@@ -58,6 +58,10 @@ metanr_packages <- function(){
 Usage of function:
 ```R
 metanr_packages()
+BiocManager::install("ctc")
+BiocManager::install("glasso")
+BiocManager::install("huge")
+BiocManager::install("ppcor")
 ```
 
 ~~Option 2~~
