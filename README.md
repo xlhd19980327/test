@@ -60,17 +60,18 @@ Usage of function:
 metanr_packages()
 ```
 
-~~**Option 2** ~~
+~~Option 2 ~~
 
 ~~Use the pacman R package (for those with >R 3.5.1). ~~
 
-~~```R~~
-install.packages("pacman")~~
+~~R~~
+~~install.packages("pacman")~~
 
 ~~library(pacman)~~
 
 ~~pacman::p_load(c("impute", "pcaMethods", "globaltest", "GlobalAncova", "Rgraphviz", "preprocessCore", "genefilter", "SSPA", "sva", "limma", "KEGGgraph", "siggenes","BiocParallel", "MSnbase", "multtest","RBGL","edgeR","fgsea","httr","qs"))~~
-```~~
+
+
 ### Step 2. Install the package
 
 MetaboAnalystR 3.0 is freely available from GitHub. The package documentation, including the vignettes for each module and user manual is available within the downloaded R package file. You can install the MetaboAnalylstR 3.0 via any of the three options: A) using the R package devtools, B) cloning the github, C) manually downloading the .tar.gz file. Note that the MetaboAnalystR 3.0 github will have the most up-to-date version of the package. 
