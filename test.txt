@@ -1,0 +1,17 @@
+Git is a contributed version control system
+Git is free software distributed under the GPL.
+Git has a mutable index called stage.
+
+
+In the Ubnutu server, it may think I am right!
+
+
+Also in this time, 
+I modify the test file.
+
+Also I modify the file in my aliyun platform.
+
+
+1 add some code
+
+2 add another code

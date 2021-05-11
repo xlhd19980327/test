@@ -167,7 +167,10 @@ readingLipidData <- function(datafile, sampleList, controlGrp = "", dataType,
   #!!!Client options
   mSet<-FilterVariable(mSet, 
                        filter = "none", qcFilter = "F", rsd = 25)
-  
+
+  if(!is.na(fileLoc)){
+    write.csv(t(mSet[["dataSet"]][["proc"]]), paste0(fileLoc, "data_tidy.csv"))
+  }
   ## Normalization / Scaling
   # Default methods: 
   # 1. Normalization method: Probabilistic Quotient Normalization(PQN) without using a reference sample
@@ -178,6 +181,6 @@ readingLipidData <- function(datafile, sampleList, controlGrp = "", dataType,
   mSet<-Normalization(mSet, 
                       rowNorm = "ProbNormT", transNorm = "NULL", scaleNorm = "AutoNorm", ref = NULL, 
                       ratio=FALSE, ratioNum=20)
-  
-  return(mSet[["dataSet"]][["norm"]])
-}
+
+  return(mSet)
+
