@@ -19,6 +19,7 @@ Also I modify the file in my aliyun platform.
 3 change a code in master
 4 change a code in master
 
+This is HEAD
 modify
 modify
 modify
@@ -26,3 +27,12 @@ modify
 modify2
 modify3
 modify3
+
+This is branch_aliyun
+5 add5
+
+dev modify
+dev
+dev
+
+conflict complited! 
